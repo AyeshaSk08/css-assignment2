@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: sans-serif;
 }
 .hero {
    background-image:url(images/image1.jpg);
@@ -8,8 +9,9 @@ body{
    background-size: cover;
    height: 500px;
     width: 100%;
+     position:relative;
 } 
-.overlay{
+.overlay1{
     background-color:#ffffffa8;
     height:50px;
 }
@@ -29,7 +31,49 @@ body{
 }
 .menu a{
     text-decoration: none;
-    color: #000000b4;
+    color: #3C4142;
     padding-right:10px;
    
 } 
+.overlay2{
+    background-color:#ffffffa8;
+    height:50px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.hero-message{
+    align-content: center;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left:60px;
+}
+.btn{
+background-color: #4ec3f1;
+border-radius: 0;
+border: 0;
+ text-decoration: none;
+color: #ffffff;
+padding: 8px 20px ;
+margin-right: 60px;
+
+}
+.about{
+ color:#3C4142;
+ text-align: center;
+}
+.separator-images{
+        align-content: center;
+    display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+
+.features{
+      align-content: center;
+    display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
